@@ -35,9 +35,9 @@ public class User {
     
     private String password;
    
+//  @Enumerated(EnumType.ORDINAL)-----------> o store date in 0,1,2 etc format
     @ElementCollection(fetch=FetchType.LAZY)
     @Enumerated(EnumType.STRING)
-//  @Enumerated(EnumType.ORDINAL)-----------> o store date in 0,1,2 etc format
     private Set<Role>roles;
     
     
