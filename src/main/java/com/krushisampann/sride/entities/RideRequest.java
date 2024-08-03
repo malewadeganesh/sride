@@ -29,7 +29,7 @@ public class RideRequest {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-//	//import from org.locationtech.jts.geom.Point;
+//	//import Point from org.locationtech.jts.geom.Point;
 //	//4326 for Earth Geometry--> @Column(columnDefinition = "Geometry(Point, 4326)")
 	@Column(columnDefinition = "Geometry(Point, 4326)")
 	private Point pickupLocation;
