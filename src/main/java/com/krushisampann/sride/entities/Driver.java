@@ -26,6 +26,8 @@ public class Driver {
 	
 	private Boolean available;
 	
+	private String vehicleId;
+	
 //	//import from org.locationtech.jts.geom.Point;
 //	//4326 for Earth Geometry--> @Column(columnDefinition = "Geometry(Point, 4326)")
 	@Column(columnDefinition = "Geometry(Point, 4326)")

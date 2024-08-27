@@ -27,12 +27,18 @@ import lombok.NoArgsConstructor;
 public class RideRequestDto {
 	
 	private Long id;
-	private Point pickupLocation;
-	private Point dropOffLocation;
-	private LocalDateTime requestedTime;
-	private RiderDto rider;
-	private RideRequestStatus rideRequestStatus;
+	
+	private PointDto pickupLocation;
+	private PointDto dropOffLocation;
 	private PaymentMethod paymentMethod;
+	
+	private LocalDateTime requestedTime;
+	
+	private RiderDto rider;
+
+	private Double fare;
+	
+	
 	
 
 }

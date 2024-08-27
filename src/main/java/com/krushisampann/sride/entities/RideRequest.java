@@ -2,6 +2,7 @@ package com.krushisampann.sride.entities;
 
 import java.time.LocalDateTime;
 
+import com.krushisampann.sride.dto.PointDto;
 import org.hibernate.annotations.CreationTimestamp;
 import org.locationtech.jts.geom.Point;
 
@@ -48,6 +49,8 @@ public class RideRequest {
 	
 	@Enumerated(EnumType.STRING)
 	private PaymentMethod paymentMethod;
+
+	private Double fare;
 	
 	
 
